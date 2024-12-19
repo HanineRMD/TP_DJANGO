@@ -1,0 +1,9 @@
+[build]
+  base = "/"  # Dossier racine de votre projet
+  command = "python manage.py collectstatic --noinput && python manage.py migrate"
+  publish = "public"  # Répertoire de publication (modifiez-le selon votre structure)
+
+[[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 200
