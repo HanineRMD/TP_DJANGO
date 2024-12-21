@@ -53,9 +53,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-CORS_ORIGIN_ALLOW_ALL = False
+CORS_ORIGIN_ALLOW_ALL = True
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:4200',
+    'https://tp-django-6rtz-j12bu5h8s-hanines-projects-cf74b2ff.vercel.app',
 )
 ROOT_URLCONF = 'bzkRestApisMySQL.urls'
 
