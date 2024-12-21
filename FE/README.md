@@ -12,4 +12,4 @@ Run `ng generate component component-name` to generate a new component.
 
 Run `ng build` to build the project. 
 
-by Hanine Ramdhane
+by Hanine Ramdhane.
